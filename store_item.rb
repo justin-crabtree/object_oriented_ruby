@@ -9,35 +9,37 @@
 
 class StoreItem
 
+  attr_accessor :name, :color, :price
+
   def initialize(name, color, price)
     @name = name
     @color = color
     @price = price
   end
 
-  def name
-    @name
-  end
+  # def name
+  #   @name
+  # end
 
-  def name=(input_name)
-    @name = input_name
-  end
+  # def name=(input_name)
+  #   @name = input_name
+  # end
 
-  def color
-    @color
-  end
+  # def color
+  #   @color
+  # end
 
-  def color=(input_color)
-    @color = input_color
-  end
+  # def color=(input_color)
+  #   @color = input_color
+  # end
 
-  def price
-    @price
-  end
+  # def price
+  #   @price
+  # end
 
-  def price=(input_price)
-    @price = input_price 
-  end
+  # def price=(input_price)
+  #   @price = input_price 
+  # end
 
 end
 
